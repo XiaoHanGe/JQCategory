@@ -58,7 +58,7 @@
 }
 
 - (NSInteger)quarter {
-    return [[[NSCalendar currentCalendar] components:NSCalendarUnitQuarter fromDate:self] quarter];
+    return (long)[[[NSCalendar currentCalendar] components:NSCalendarUnitQuarter fromDate:self] quarter];
 }
 
 - (BOOL)isLeapMonth {
@@ -88,7 +88,7 @@
 
 - (NSString *)timeStampString
 {
-    NSString* dateString = [NSString stringWithFormat:@"%ld",[self timeStampInteger]];
+    NSString* dateString = [NSString stringWithFormat:@"%ld",(long)[self timeStampInteger]];
     return  dateString;
 }
 
