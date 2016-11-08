@@ -1,0 +1,1 @@
+../../../../JQCategorySDK/JQCategorySDK.framework/Headers/UIButton+GCAlignment.h

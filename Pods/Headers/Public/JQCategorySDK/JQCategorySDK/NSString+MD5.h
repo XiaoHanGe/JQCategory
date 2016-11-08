@@ -1,0 +1,1 @@
+../../../../JQCategorySDK/JQCategorySDK.framework/Headers/NSString+MD5.h

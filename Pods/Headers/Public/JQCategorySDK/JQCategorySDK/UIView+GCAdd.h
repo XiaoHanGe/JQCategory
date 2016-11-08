@@ -1,0 +1,1 @@
+../../../../JQCategorySDK/JQCategorySDK.framework/Headers/UIView+GCAdd.h
